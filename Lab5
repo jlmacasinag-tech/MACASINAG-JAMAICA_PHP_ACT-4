@@ -1,0 +1,9 @@
+<?php
+$a = (int)readline("Enter first number: ");
+$b = (int)readline("Enter second number: ");
+$c = (int)readline("Enter third number: ");
+$largest = $a;
+if ($b > $largest) $largest = $b;
+if ($c > $largest) $largest = $c;
+echo "Largest number is: $largest";
+?>

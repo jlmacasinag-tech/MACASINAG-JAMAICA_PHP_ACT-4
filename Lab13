@@ -1,0 +1,15 @@
+<?php
+$a = (float)readline("Enter first number: ");
+$b = (float)readline("Enter second number: ");
+$op = readline("Enter operator (+, -, *, /): ");
+switch($op) {
+    case '+': echo $a + $b; break;
+    case '-': echo $a - $b; break;
+    case '*': echo $a * $b; break;
+    case '/': 
+        if ($b == 0) echo "Division by zero error";
+        else echo $a / $b; 
+        break;
+    default: echo "Invalid operator";
+}
+?>

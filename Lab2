@@ -1,0 +1,8 @@
+<?php
+$num = (int)readline("Enter a number: ");
+if ($num >= 0) {
+    echo "Positive number";
+} else {
+    echo "Negative number";
+}
+?>

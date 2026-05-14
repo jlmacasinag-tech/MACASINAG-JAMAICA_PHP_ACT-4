@@ -1,0 +1,12 @@
+<?php
+$amount = (float)readline("Enter purchase amount: ");
+if ($amount >= 1000) {
+    $discount = $amount * 0.2;
+    echo "20% discount: " . $discount;
+} elseif ($amount >= 500) {
+    $discount = $amount * 0.1;
+    echo "10% discount: " . $discount;
+} else {
+    echo "No discount";
+}
+?>

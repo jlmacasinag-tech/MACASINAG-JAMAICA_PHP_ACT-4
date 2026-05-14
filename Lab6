@@ -1,0 +1,9 @@
+<?php
+$password = "admin123";
+$input = readline("Enter password: ");
+if ($input === $password) {
+    echo "Access Granted";
+} else {
+    echo "Access Denied";
+}
+?>
